@@ -1,0 +1,40 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.inp-ele {
+  height: 38px;
+  background-color: rgb(200, 214, 219);
+  border: 1px solid darkblue;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  padding-left: 8px;
+}
+.list-con {
+  list-style-type: none;
+}
+.list-item {
+  margin: 10px;
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+.head {
+  color: #245678;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+.icon-rate {
+  width: 100px;
+}
